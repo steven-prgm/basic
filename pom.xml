@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.com.steven</groupId>
+    <groupId>com.github.steven</groupId>
     <artifactId>basic</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
@@ -128,13 +128,11 @@
             <version>2.4.16</version>
             <scope>test</scope>
         </dependency> -->
-        <!--"org.slf4j" % "slf4j-api" % "1.7.13", -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.13</version>
         </dependency>
-        <!-- "log4j" % "log4j" % "1.2.17", -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -145,127 +143,106 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.13</version>
         </dependency>
-        <!--"javax.mail" % "mail" % "1.4.7",-->
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
             <version>1.4.7</version>
         </dependency>
-        <!-- "org.apache.poi" % "poi" % "3.10.1", -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.10.1</version>
         </dependency>
-        <!-- "org.apache.poi" % "poi-ooxml" % "3.10.1", -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.10.1</version>
         </dependency>
-        <!-- "org.apache.poi" % "poi-ooxml-schemas" % "3.10.1", -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>3.10.1</version>
         </dependency>
-        <!-- "com.typesafe" % "config" % "1.2.1", -->
         <dependency>
             <groupId>com.typesafe</groupId>
             <artifactId>config</artifactId>
             <version>1.2.1</version>
         </dependency>
-        <!-- "net.sf.opencsv" % "opencsv" % "2.3", -->
         <dependency>
             <groupId>net.sf.opencsv</groupId>
             <artifactId>opencsv</artifactId>
             <version>2.3</version>
         </dependency>
-        <!-- "net.sf.jpam" % "jpam" % "1.1", -->
         <dependency>
             <groupId>net.sf.jpam</groupId>
             <artifactId>jpam</artifactId>
             <version>1.1</version>
         </dependency>
-        <!-- "net.sf.py4j" % "py4j" % "0.8.2.1", -->
         <dependency>
             <groupId>net.sf.py4j</groupId>
             <artifactId>py4j</artifactId>
             <version>0.8.2.1</version>
         </dependency>
-        <!-- "org.apache.ant" % "ant" % "1.9.1", -->
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
             <version>1.9.1</version>
         </dependency>
-        <!-- "org.apache.ant" % "ant-launcher" % "1.9.1", -->
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant-launcher</artifactId>
             <version>1.9.1</version>
         </dependency>
-        <!-- "com.jcraft" % "jsch" % "0.1.42", -->
         <dependency>
             <groupId>com.jcraft</groupId>
             <artifactId>jsch</artifactId>
             <version>0.1.42</version>
         </dependency>
-        <!-- "commons-net" % "commons-net" % "3.3", -->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
             <version>3.3</version>
         </dependency>
-        <!-- "org.apache.hadoop" % "hadoop-common" % "2.3.0", -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
             <version>2.3.0</version>
         </dependency>
-        <!-- "org.apache.hadoop" % "hadoop-hdfs" % "2.3.0", -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.3.0</version>
         </dependency>
-        <!-- "ch.qos.logback" % "logback-classic" % "1.1.2", -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.1.2</version>
         </dependency>
-        <!-- "ch.qos.logback" % "logback-core" % "1.1.2", -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>1.1.2</version>
         </dependency>
-        <!-- "javax.mail" % "mail" % "1.4.7", -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>1.1.2</version>
         </dependency>
-        <!-- "com.alibaba" % "fastjson" % "1.2.7", -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.7</version>
         </dependency>
-        <!-- "redis.clients" % "jedis" % "2.7.3", -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>2.7.3</version>
         </dependency>
-        <!-- "org.json" % "json" % "20160212", -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20160212</version>
         </dependency>
-        <!-- "org.scala-lang" % "scala-library" % "2.11.5", -->
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
@@ -281,43 +258,36 @@
             <artifactId>scala-reflect</artifactId>
             <version>${scala.version}</version>
         </dependency>
-        <!-- "mysql" % "mysql-connector-java" % "5.1.38", -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.38</version>
         </dependency>
-        <!-- "org.apache.zookeeper" % "zookeeper" % "3.4.6", -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.4.6</version>
         </dependency>
-        <!-- "org.apache.spark" % "spark-core_2.10" % "1.6.2", -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.10</artifactId>
             <version>1.6.2</version>
         </dependency>
-        <!-- "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.6.2", -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming-kafka_2.10</artifactId>
             <version>1.6.2</version>
         </dependency>
-        <!-- "org.apache.spark" % "spark-streaming_2.10" % "1.6.2", -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming_2.10</artifactId>
             <version>1.6.2</version>
         </dependency>
-        <!-- "redis.clients" % "jedis" % "2.7.3", -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>2.7.3</version>
         </dependency>
-        <!-- "c3p0" % "c3p0" % "0.9.1.2" -->
         <dependency>
             <groupId>c3p0</groupId>
             <artifactId>c3p0</artifactId>
